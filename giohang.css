@@ -1,0 +1,33 @@
+table{
+    border-collapse: collapse;
+    border: 3px solid black;
+    text-align: center;
+   width: 1150px;
+   margin:0 auto;
+   top:2200px;
+}
+.hang1{
+    background-color: black;
+    color: white;
+}
+tr:nth-child(2n+1){
+    background-color: rgb(210, 232, 247 );
+}
+tr:nth-child(2n){
+    background-color: rgb(210, 232, 247 );
+}
+tr:first-child{
+    background-color: black;
+}
+.ten{
+    font-weight: bold;
+}
+.mota{
+    text-align: left;
+}
+.icon{
+    float:right;
+}
+/*footer*/
+.footer {position: relative;top: 2200px;}
+/*thêm*/
